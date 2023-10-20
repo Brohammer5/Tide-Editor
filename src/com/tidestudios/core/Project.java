@@ -7,7 +7,7 @@ public class Project {
     3 - Python
      */
     public int LangType = 0;
-    public static float [] backgroundColor = new float[10000];
+    public static float [] backgroundColor = new float[4];
     public String ProjectName;
     public Project(int Language, String ProjectName){
         this.LangType = Language;
